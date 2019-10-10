@@ -26,7 +26,7 @@ linkedin_username: nishanth-anand-vemgal-185a5757
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog
-remote_theme: NishanthVAnand/startbootstrap-clean-blog
+remote_theme: NishanthVAnand/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
