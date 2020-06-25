@@ -4,6 +4,7 @@ title: Research
 permalink: /research/
 background: /images/research.jpg
 ---
+Find my research on <a href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&hl=en">Google scholar</a>.
 <h2>Thesis</h2>
 <ul>
 	<li> <b>Temporal Credit Assignment via Traces in Reinforcement Learning</b>. MSc Thesis. (<a href="https://nishanthvanand.github.io/MScThesis.pdf">PDF</a>)</li>
