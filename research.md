@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: Publications
+permalink: /publications/
 background: /images/research.jpg
 ---
 Find my research on <a href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&hl=en">Google scholar</a>.
