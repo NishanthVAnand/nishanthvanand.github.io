@@ -6,7 +6,7 @@ background: /images/research.jpg
 ---
 <h2>Thesis</h2>
 <ul>
-	<li> <b>Temporal Credit Assignment via Traces in Reinforcement Learning</b>. MSc Thesis. (<a href="https://https://nishanthvanand.github.io/MScThesis.pdf">PDF</a>)</li>
+	<li> <b>Temporal Credit Assignment via Traces in Reinforcement Learning</b>. MSc Thesis. (<a href="https://nishanthvanand.github.io/MScThesis.pdf">PDF</a>)</li>
 </ul>
 <h2>Publications</h2>
 <ul>
