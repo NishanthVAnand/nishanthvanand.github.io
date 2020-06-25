@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: My thoughts
+title: Nishanth Anand
 background: /images/home.jpg
 ---
 <h2> Hello curious mind! </h2>
