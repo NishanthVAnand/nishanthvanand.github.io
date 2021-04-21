@@ -8,8 +8,6 @@ background: /images/blog.jpg
 <ul>
 	<li>09/03/2019: Recurrent Value Functions, the RL sofa meeting, Mila. (<a href="https://www.youtube.com/watch?v=1HRA3wSCC3w">Youtube</a>)</li>
 	<li>01/11/2019: Additive lambda returns, the RL sofa meeting, Mila. (<a href="https://www.youtube.com/watch?v=FchhKuo7NZE">Youtube</a>)</li>
-	<li>22/01/2020: Dynamic programming, COMP 767, McGill University.</li>
-	<li>15/04/2020: Q-learning and DQN, Guest lecture, PESU.</li>
 </ul>
 <h2>Blogs</h2>
 <ul>
