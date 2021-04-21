@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Paper Library
+title: Library
 background: /images/cv.jpg
 ---
 
