@@ -4,19 +4,73 @@ title: Publications
 permalink: /publications/
 background: /images/research.jpg
 ---
-Find my research on <a href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&hl=en">Google scholar</a>.
-<h2>Thesis</h2>
-<ul>
-	<li> <b>Temporal Credit Assignment via Traces in Reinforcement Learning</b>. MSc Thesis. (<a href="https://nishanthvanand.github.io/MScThesis.pdf">PDF</a>)</li>
-</ul>
-<h2>Publications</h2>
-<ul>
-  <li><b>Recurrent Value Function</b>. Pierre Thodoroff*, <b>Nishanth Anand*</b>, Lucas Caccia, Doina Precup, Joelle Pineau. RLDM 2019. (<a href="https://arxiv.org/abs/1905.09562">PDF</a>)</li>
-  <li><b>Recurrent Learning in Reinforcement Learning</b>. Pierre Thodoroff*, <b>Nishanth Anand*</b>, Lucas Caccia, Doina Precup, Joelle Pineau. SPiRL workshop, ICLR 2019. (<a href="https://arxiv.org/abs/1905.09562">PDF</a>)</li>
-</ul>
-<h2>Presentations</h2>
-<ul>
-  <li><b>Sparse representation using optimum threshold based relevance vector machine.</b> <b>Nishanth Anand</b>, J Manikandan. INDICON 2015. (<a href="https://ieeexplore.ieee.org/abstract/document/7443136">PDF</a>)</li>
-  <li><b>SAR image compression using Relevance Vector Machines.</b> <b>Nishanth Anand</b>, J Manikandan. INDICON 2015. (<a href="https://ieeexplore.ieee.org/abstract/document/7443136">PDF</a>)</li>
-  <li><b>Stock Market Prediction Using Optimum Threshold Based Relevance Vector Machines.</b> HS Karthik, <b>Nishanth Anand</b>, J Manikandan. ADCOM 2016. (<a href="https://ieeexplore.ieee.org/abstract/document/8385598">PDF</a>)</li>
-</ul>
+<head>
+  <style>
+    .papers {margin: 5pt; text-align: justify;}
+
+    .arrow {
+      border: solid #595959;
+      border-width: 0 3pt 3pt 0;
+      display: inline-block;
+      padding: 4pt;
+    }
+
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+    .up {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+    }
+
+    .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+
+    .format_abs {color: #404040; 
+      font-style: oblique; 
+      font-size: 13pt;}
+
+    .author_format {color:  #404040;}
+  </style>
+
+  <script>
+    function absFunc(div_id, anc_id) {
+      var x = document.getElementById(div_id);
+      var y = document.getElementById(anc_id);
+      // if (y.className == "arrow down") { y.className = "arrow up";}
+      // else {y.className == "arrow down";}
+      if (x.style.display === "none") {
+      x.style.display = "block";
+      y.className = "arrow up";
+      } else {
+      x.style.display = "none";
+      y.className = "arrow down";
+      }
+    } 
+  </script>
+</head>
+
+Find my full research on <a style="color:blue;" href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&hl=en">Google scholar</a>.
+
+<ol>
+  {% assign var = 1 %}
+  {% for post in site.papers reversed %}
+    <li class="papers">
+       <b>{{post.title}}</b>. <i class="author_format">{{post.authors}}</i>. {{post.conference}}.
+       {% if post.pdf %}[<a style="color:blue;" href="{{post.pdf}}">PDF</a>]{% endif %}
+       {% if post.video %}[<a style="color:blue;" href="{{post.video}}">YouTube</a>]{% endif %}&nbsp;
+       <a id="{{var | append: 'anchor'}}" class = "arrow down" onclick="absFunc('{{var}}', '{{var | append: 'anchor'}}')" style="color:blue;"> </a> 
+       <div class = "format_abs" id="{{var}}" style="display: none;"> {{post.abstract}} </div> 
+    </li>
+    {% assign var = var | plus: 1  %}
+  {% endfor %}
+</ol>

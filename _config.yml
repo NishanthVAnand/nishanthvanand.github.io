@@ -22,6 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: itsNVA7
 github_username:  NishanthVAnand
 linkedin_username: nishanth-anand-vemgal-185a5757
+youtube_username: channel/UCO3lcoU5q1Oaq504plZ31Rw
 
 # Build settings
 markdown: kramdown
@@ -30,6 +31,9 @@ remote_theme: NishanthVAnand/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
+collections:
+  papers:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

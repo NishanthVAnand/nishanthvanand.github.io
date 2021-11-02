@@ -1,0 +1,1 @@
+Theme is shamelessly taken from https://github.com/startbootstrap/startbootstrap-clean-blog-jekyll and modified as per need.

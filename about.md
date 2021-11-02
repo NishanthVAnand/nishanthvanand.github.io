@@ -4,12 +4,12 @@ permalink: /about/
 background: /images/about.jpg
 ---
 
-I am a Ph.D. student in Computer Science at <a href="https://www.mcgill.ca/">McGill University</a> and <a href = "https://mila.quebec/">Mila</a>, <a href="https://www.youtube.com/watch?v=Zju55DosmUY">Montreal</a>, <a href = "https://www.youtube.com/watch?v=EsL_TAfQxH8">Canada</a>. I work on Reinforcement Learning, both deep and non-deep. I am supervised by <a href = "https://en.wikipedia.org/wiki/Doina_Precup">Prof. Doina Precup</a>.
+I am a third year Ph.D. student in Computer Science at <a href="https://www.mcgill.ca/">McGill University</a> and <a href = "https://mila.quebec/">Mila</a>, Montreal</a>, Canada</a>. I work on Reinforcement Learning, both deep and non-deep. My research advisor is <a href = "https://en.wikipedia.org/wiki/Doina_Precup">Prof. Doina Precup</a>.
 
-I want to understand how humans selectively attribute success or failure to the decisions taken in the past and use this understanding to build AI agents that do the same. In other words, I am interested in solving the temporal credit assignment problem in reinforcement learning.
+Before Ph.D., I completed my M.Sc. in computer science at McGill University and Mila. I worked as a Data Scientist at <a href="https://fractal.ai/">Fractal Analytics</a> for roughly two years before starting my masters. I went to <a href="https://www.pes.edu/">PES Institue of Technology</a>, Bengaluru, India for my bachelor's studies in telecommunication engineering.
 
-I believe AI can solve many problems across domains and make our lives easy. I also like to think that we would be synergistically living with AI agents in the future.
+My research focuses on building reinforcement learning agents that can efficiently propagate reward signal along the temporal axis. At first, it may seem trivial to write an algorithm that can learn to create a link between actions and rewards. But, it is painstakingly hard to do it in practice. I hope to bridge the enormous gap between how humans seamlessly assign credit compared to the RL agents. I also draw excitement in developing reinforcement learning algorithms that can learn continually throughout its life as they are a step closer to human intelligence.
 
-I completed my MSc in Computer Science at McGill University before starting a Ph.D. I worked on solving temporal credit assignment through traces as a part of my thesis.
+Often, I ponder on several abstract questions like: what is natural intelligence? Is there a single algorithm that can imitate it? If there’s one, what kind of learning rule does it use? What structure does that algorithm have? And many more along these lines. If you have thoughts on these questions, share them with me on my email or Twitter.
 
-I obtained a bachelor's degree in telecommunication engineering at <a href="https://www.pes.edu/">PES Institue of Technology</a>, <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a>, India. After graduation, I worked in the AI team at <a href="https://fractal.ai/">Fractal Analytics</a> for two years.
+I spend a good chunk of time sleeping, watching math and physics videos on YouTube. I also like to play video games, board games, and spend time with nature.

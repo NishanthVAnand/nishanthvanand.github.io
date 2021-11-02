@@ -1,0 +1,7 @@
+---
+title: "SAR image compression using Relevance Vector Machines"
+authors: "<b>Nishanth Anand</b>, J Manikandan"
+conference: "INDICON 2015"
+pdf: "https://ieeexplore.ieee.org/abstract/document/7443136"
+abstract: "Synthetic Aperture Radar (SAR) images are built on-board an aircraft or spacecraft with the help of backscatters and these images are displayed on the cockpit, transmitted to ground station or stored in on-board storage disks based on the system where it is employed. SAR images represent vital information for a large variety of applications which includes automatic target recognition. Hence there is an urge to compress these images with negligible degradation in image quality. In this paper, a novel attempt is made to compress SAR images using RVM for aerospace and satellite applications. Also an optimum threshold based RVM image compressor is proposed and its performance is evaluated. In order to assess the effectiveness of the proposed system, datasets from USC-SIPI image databases are used. It is observed that the images are compressed by 40.36% to 88.53% with a PSNR ranging from 24.34 dB to 33.81 dB on using the proposed optimum threshold technique based RVM model."
+---
