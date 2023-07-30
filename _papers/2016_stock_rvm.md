@@ -1,0 +1,7 @@
+---
+title: "Stock Market Prediction Using Optimum Threshold Based Relevance Vector Machines"
+authors: "HS Karthik, <b>Nishanth Anand</b>, J Manikandan"
+conference: "ADCOM 2016"
+pdf: "https://ieeexplore.ieee.org/abstract/document/8385598"
+abstract: "Machine learning is employed for myriad of applications ranging from engineering to non-engineering, medical to finance, sports to studies and many more. The huge demand for machine learning has spearheaded various techniques such as Hidden Markov Models (HMM), Artificial Neural Networks(ANN), Support Vector Machines (SVM), Relevance Vector Machines (RVM) and many more. It is well reported in literature that RVM outperforms SVM interms of sparseness as well as accuracy and hence the same is employed for the proposed work. In this paper, stock market prediction using optimum threshold based RVM is reported and its performance is evaluated using given input parameters for share market. In order to assess the performance of the proposed system, datasets from the following four stock exchanges are considered for evaluation, which includes NASDAQ, National Security Exchange (NSE), New York Stock Exchange (NYSE) and London Stock Exchange (LSE). It is observed that 19.17 - 83.33% of relevance vectors are pruned on using the proposed optimum threshold based RVM technique. Also a user friendly Graphical user interface is developed for the proposed work, which can be easily extended for various other machine learning applications too."
+---

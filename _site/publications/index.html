@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Publications</title>
+
+  
+  <meta name="author" content="Nishanth Anand">
+  
+
+  <meta name="description" content="Find full list of publications on Google scholar.
+
+
+  {% assign var = 1 %}
+  {% for post in site.papers reversed %}
+    
+       {{post.title}}. {{post.authors}}. {{post.conference}}.
+       {% if post.pdf %}[PDF]{% endif %}
+       {% if post.video %}[YouTube]{% endif %}&amp;nbsp;
+       
+       
+        {{post.abstract}} 
+    
+    {% assign var = var | plus: 1  %}
+  {% endfor %}">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Reinforced Researcher">
+  <meta property="og:title" content="Publications">
+  <meta property="og:description" content="Find full list of publications on Google scholar.
+
+
+  {% assign var = 1 %}
+  {% for post in site.papers reversed %}
+    
+       {{post.title}}. {{post.authors}}. {{post.conference}}.
+       {% if post.pdf %}[PDF]{% endif %}
+       {% if post.video %}[YouTube]{% endif %}&amp;nbsp;
+       
+       
+        {{post.abstract}} 
+    
+    {% assign var = var | plus: 1  %}
+  {% endfor %}">
+
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/mypic2.jpg">
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/publications/">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@itsNVA7">
+  <meta name="twitter:creator" content="@itsNVA7">
+
+  <meta property="twitter:title" content="Publications">
+  <meta property="twitter:description" content="Find full list of publications on Google scholar.
+
+
+  {% assign var = 1 %}
+  {% for post in site.papers reversed %}
+    
+       {{post.title}}. {{post.authors}}. {{post.conference}}.
+       {% if post.pdf %}[PDF]{% endif %}
+       {% if post.video %}[YouTube]{% endif %}&amp;nbsp;
+       
+       
+        {{post.abstract}} 
+    
+    {% assign var = var | plus: 1  %}
+  {% endfor %}">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/mypic2.jpg">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Reinforced Researcher</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/talks">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/mypic2.jpg" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+       \
+        { \
+          "title"    : "Blog", \
+          "category" : "page", \
+          "url"      : "/blog/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Nishanth Anand", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Publications", \
+          "category" : "page", \
+          "url"      : "/publications/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Talks", \
+          "category" : "page", \
+          "url"      : "/talks/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Publications</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <head>
+  <style>
+    .papers {margin: 5pt; text-align: justify;}
+
+    .plus:before {
+      content: "+";
+      display: inline-block;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: courier;
+    }
+
+    .plus:hover::before{
+      color: blue;
+    }
+
+    .minus:before {
+      content: "-";
+      display: inline-block;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: courier;
+    }
+
+    .minus:hover::before{
+      color: blue;
+    }
+
+    .arrow {
+      border: solid #A0A0A0;
+      border-width: 0pt 3pt 3pt 0pt;
+      display: inline-block;
+      padding: 4pt;
+    }
+
+    .arrow:hover { 
+      border: solid #595959;
+      border-width: 0 3pt 3pt 0;
+      display: inline-block;
+      padding: 4pt;
+    }
+
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+    .up {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+    }
+
+    .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+
+    .format_abs {color: #404040; 
+      font-style: oblique; 
+      font-size: 13pt;}
+
+    .author_format {color:  #404040;}
+  </style>
+
+  <script>
+    function absFunc(div_id, anc_id) {
+      var x = document.getElementById(div_id);
+      var y = document.getElementById(anc_id);
+      // if (y.className == "arrow down") { y.className = "arrow up";}
+      // else {y.className == "arrow down";}
+      if (x.style.display === "none") {
+      x.style.display = "block";
+      y.className = "minus";
+      } else {
+      x.style.display = "none";
+      y.className = "plus";
+      }
+    }
+
+    function hoverfunc() {
+
+    } 
+  </script>
+</head>
+
+<p>Find full list of publications on <a style="color:blue;" href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&amp;hl=en">Google scholar</a>.</p>
+
+<ol>
+  
+  
+    <li class="papers">
+       <b>Preferential Temporal Difference Learning</b>. <i class="author_format"><b>Nishanth Anand</b>, Doina Precup</i>. ICML 2021.
+       [<a style="color:blue;" href="http://proceedings.mlr.press/v139/anand21a.html">PDF</a>]
+       [<a style="color:blue;" href="https://www.youtube.com/watch?v=wvwufoGNUZ0">YouTube</a>]&nbsp;
+       <!-- <a id="1anchor" class = "arrow down" onclick="absFunc('1', '1anchor')" style="color:blue;"> </a>  -->
+       <a id="1anchor" class="plus" onclick="absFunc('1', '1anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="1" style="display: none;"> Temporal-Difference (TD) learning is a general and very useful tool for estimating the value function of a given policy, which in turn is required to find good policies. Generally speaking, TD learning updates states whenever they are visited. When the agent lands in a state, its value can be used to compute the TD-error, which is then propagated to other states. However, it may be interesting, when computing updates, to take into account other information than whether a state is visited or not. For example, some states might be more important than others (such as states which are frequently seen in a successful trajectory). Or, some states might have unreliable value estimates (for example, due to partial observability or lack of data), making their values less desirable as targets. We propose an approach to re-weighting states used in TD updates, both when they are the input and when they provide the target for the update. We prove that our approach converges with linear function approximation and illustrate its desirable empirical behaviour compared to other TD-style methods. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>Recurrent Learning in Reinforcement Learning</b>. <i class="author_format">Pierre Thodoroff*, <b>Nishanth Anand*</b>, Lucas Caccia, Doina Precup, Joelle Pineau</i>. SPiRL workshop, ICLR 2019.
+       [<a style="color:blue;" href="https://arxiv.org/abs/1905.09562">PDF</a>]
+       &nbsp;
+       <!-- <a id="2anchor" class = "arrow down" onclick="absFunc('2', '2anchor')" style="color:blue;"> </a>  -->
+       <a id="2anchor" class="plus" onclick="absFunc('2', '2anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="2" style="display: none;"> In sequential modelling, exponential smoothing is one of the most widely used techniques to maintain temporal consistency in estimates. In this work, we propose Recurrent Learning, a method that estimates the value function in reinforcement learning using exponential smoothing mph{along the trajectory}. We establish its asymptotic convergence properties under some smoothness assumption on the reward. The proposed algorithm yields a natural way to learn a state dependent emphasis function that selectively learns to emphasize or ignore states based on trajectory information. We demonstrate the potential for this selective updating on a partially observable domain and several continuous control tasks. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>Recurrent Value Function</b>. <i class="author_format">Pierre Thodoroff*, <b>Nishanth Anand*</b>, Lucas Caccia, Doina Precup, Joelle Pineau</i>. RLDM 2019.
+       [<a style="color:blue;" href="https://arxiv.org/abs/1905.09562">PDF</a>]
+       &nbsp;
+       <!-- <a id="3anchor" class = "arrow down" onclick="absFunc('3', '3anchor')" style="color:blue;"> </a>  -->
+       <a id="3anchor" class="plus" onclick="absFunc('3', '3anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="3" style="display: none;"> Despite recent successes in Reinforcement Learning, value-based methods often suffer from high variance hindering performance. In this paper, we illustrate this in a continuous control setting where state of the art methods perform poorly whenever sensor noise is introduced. To overcome this issue, we introduce Recurrent Value Functions (RVFs) as an alternative to estimate the value function of a state. We propose to estimate the value function of the current state using the value function of past states visited along the trajectory. Due to the nature of their formulation, RVFs have a natural way of learning an emphasis function that selectively emphasizes important states. First, we establish RVF's asymptotic convergence properties in tabular settings. We then demonstrate their robustness on a partially observable domain and continuous control tasks. Finally, we provide a qualitative interpretation of the learned emphasis function. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>Temporal Credit Assignment via Traces in Reinforcement Learning</b>. <i class="author_format"><b>Nishanth Anand</b></i>. MSc Thesis.
+       [<a style="color:blue;" href="https://escholarship.mcgill.ca/concern/theses/4f16c682k">PDF</a>]
+       &nbsp;
+       <!-- <a id="4anchor" class = "arrow down" onclick="absFunc('4', '4anchor')" style="color:blue;"> </a>  -->
+       <a id="4anchor" class="plus" onclick="absFunc('4', '4anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="4" style="display: none;"> Reinforcement Learning is a framework for sequential decision making which is widely used in many domains such as robotics, autonomous driving, etc. Due to the sequential nature there exists the problem of assigning the credit to the actions taken in the past. This problem in reinforcement learning is known as temporal credit assignment. The problem of temporal credit assignment lies in the core of many methods such as options, online learning, off-policy learning, etc. within reinforcement learning framework. Several problems such as high variance in the value function estimates, sub-optimal policy, high sample complexity are a consequence of improper temporal credit assignment in reinforcement learning. In this thesis, we introduce and examine a couple of temporal credit assignment techniques. Specifically, we mitigate the problem of variance in value function by effectively assigning credit. First, we discuss the fundamental concepts of signals and reinforcement learning. Then, we introduce Recurrent Learning which smooths the value function along the trajectory. We then analyze the strengths of Recurrent Learning experimentally. Finally, we introduce filters from signal processing as a general framework for various traces in reinforcement learning. We show the effectiveness of filters with a couple of toy examples. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>Stock Market Prediction Using Optimum Threshold Based Relevance Vector Machines</b>. <i class="author_format">HS Karthik, <b>Nishanth Anand</b>, J Manikandan</i>. ADCOM 2016.
+       [<a style="color:blue;" href="https://ieeexplore.ieee.org/abstract/document/8385598">PDF</a>]
+       &nbsp;
+       <!-- <a id="5anchor" class = "arrow down" onclick="absFunc('5', '5anchor')" style="color:blue;"> </a>  -->
+       <a id="5anchor" class="plus" onclick="absFunc('5', '5anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="5" style="display: none;"> Machine learning is employed for myriad of applications ranging from engineering to non-engineering, medical to finance, sports to studies and many more. The huge demand for machine learning has spearheaded various techniques such as Hidden Markov Models (HMM), Artificial Neural Networks(ANN), Support Vector Machines (SVM), Relevance Vector Machines (RVM) and many more. It is well reported in literature that RVM outperforms SVM interms of sparseness as well as accuracy and hence the same is employed for the proposed work. In this paper, stock market prediction using optimum threshold based RVM is reported and its performance is evaluated using given input parameters for share market. In order to assess the performance of the proposed system, datasets from the following four stock exchanges are considered for evaluation, which includes NASDAQ, National Security Exchange (NSE), New York Stock Exchange (NYSE) and London Stock Exchange (LSE). It is observed that 19.17 - 83.33% of relevance vectors are pruned on using the proposed optimum threshold based RVM technique. Also a user friendly Graphical user interface is developed for the proposed work, which can be easily extended for various other machine learning applications too. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>SAR image compression using Relevance Vector Machines</b>. <i class="author_format"><b>Nishanth Anand</b>, J Manikandan</i>. INDICON 2015.
+       [<a style="color:blue;" href="https://ieeexplore.ieee.org/abstract/document/7443136">PDF</a>]
+       &nbsp;
+       <!-- <a id="6anchor" class = "arrow down" onclick="absFunc('6', '6anchor')" style="color:blue;"> </a>  -->
+       <a id="6anchor" class="plus" onclick="absFunc('6', '6anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="6" style="display: none;"> Synthetic Aperture Radar (SAR) images are built on-board an aircraft or spacecraft with the help of backscatters and these images are displayed on the cockpit, transmitted to ground station or stored in on-board storage disks based on the system where it is employed. SAR images represent vital information for a large variety of applications which includes automatic target recognition. Hence there is an urge to compress these images with negligible degradation in image quality. In this paper, a novel attempt is made to compress SAR images using RVM for aerospace and satellite applications. Also an optimum threshold based RVM image compressor is proposed and its performance is evaluated. In order to assess the effectiveness of the proposed system, datasets from USC-SIPI image databases are used. It is observed that the images are compressed by 40.36% to 88.53% with a PSNR ranging from 24.34 dB to 33.81 dB on using the proposed optimum threshold technique based RVM model. </div>
+    </li>
+    
+  
+    <li class="papers">
+       <b>Sparse representation using optimum threshold based relevance vector machine</b>. <i class="author_format"><b>Nishanth Anand</b>, J Manikandan</i>. INDICON 2015.
+       [<a style="color:blue;" href="https://ieeexplore.ieee.org/abstract/document/7443136">PDF</a>]
+       &nbsp;
+       <!-- <a id="7anchor" class = "arrow down" onclick="absFunc('7', '7anchor')" style="color:blue;"> </a>  -->
+       <a id="7anchor" class="plus" onclick="absFunc('7', '7anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="7" style="display: none;"> Sparse representation is a signal processing technique that is capable of determining the entire signal from relatively fewer samples. Support vector machines (SVM) and relevance vector machines (RVM) are the most commonly used sparse representation techniques, where the ability of the model to estimate the output is directly related to the sparsity. It is also reported in literature that the performance of RVM is superior over SVM in terms of accuracy and sparseness. In this paper, an optimum threshold based relevance vector machine is proposed for sparse representation. In order to assess the sparseness of proposed approach, three signals and datasets from UCI databases are used for sparse approximation using proposed RVM model and the results are reported. The performance of proposed system is assessed using two parameters, Relative error and Mean square error. It is observed that the number of relevance vectors is pruned by 7.18 - 69.46% on using the proposed optimum threshold technique based RVM model for sparse approximation. </div>
+    </li>
+    
+  
+</ol>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="mailto:nishanth127127@gmail.com" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/NishanthVAnand" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/itsNVA7" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://linkedin.com/in/nishanth-anand-vemgal-185a5757" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.instagram.com/itsNVA7" title="Instagram">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Instagram</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.youtube.com/channel/UCO3lcoU5q1Oaq504plZ31Rw" title="YouTube">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">YouTube</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://scholar.google.com/citations?user=pRNasKQAAAAJ" title="Google Scholar">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Google Scholar</span>
+    </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Nishanth Anand
+        &nbsp;&bull;&nbsp;
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

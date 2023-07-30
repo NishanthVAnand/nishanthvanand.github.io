@@ -1,0 +1,7 @@
+---
+title: "Sparse representation using optimum threshold based relevance vector machine"
+authors: "<b>Nishanth Anand</b>, J Manikandan"
+conference: "INDICON 2015"
+pdf: "https://ieeexplore.ieee.org/abstract/document/7443136"
+abstract: "Sparse representation is a signal processing technique that is capable of determining the entire signal from relatively fewer samples. Support vector machines (SVM) and relevance vector machines (RVM) are the most commonly used sparse representation techniques, where the ability of the model to estimate the output is directly related to the sparsity. It is also reported in literature that the performance of RVM is superior over SVM in terms of accuracy and sparseness. In this paper, an optimum threshold based relevance vector machine is proposed for sparse representation. In order to assess the sparseness of proposed approach, three signals and datasets from UCI databases are used for sparse approximation using proposed RVM model and the results are reported. The performance of proposed system is assessed using two parameters, Relative error and Mean square error. It is observed that the number of relevance vectors is pruned by 7.18 - 69.46% on using the proposed optimum threshold technique based RVM model for sparse approximation."
+---
