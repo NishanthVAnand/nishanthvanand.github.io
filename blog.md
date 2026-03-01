@@ -11,3 +11,7 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
+
+<ul>
+  <li class="blogs"> <b>February 2026:</b> <a style="color:blue;" href="https://itsnva7.substack.com/p/continual-learning-requires-rethinking">Continual Learning requires Rethinking Learning Architectures.</a></li>
+</ul>

@@ -9,7 +9,13 @@ title: Talks
 </head>
 
 <ul>
-  <li class="talks"> <b>February 2023:</b> <i>Permanent and Transient Memories</i>, <a style="color:blue;" href="https://barbados2023.rl-community.org/home">Barbados RL workshop 2023.</a></li>
+  <li class="talks"> <b>December 2023:</b> <i>The Permanent and Transient Framework for Continual Reinforcement Learning</i>, <a style="color:blue;" href="https://cohere.com/events/cohere-labs-nishanth-anand-2026">Cohere Labs.</a></li>
+
+  <li class="talks"> <b>December 2023:</b> <i>Prediction and Control in Continual Reinforcement Learning</i>, <a style="color:blue;" href="https://neurips.cc/virtual/2023/poster/72001">NeurIPS Conference.</a></li>
+
+  <li class="talks"> <b>December 2023:</b> <i>Prediction and Control in Continual Reinforcement Learning</i>, Rich Sutton's Group Meeting, Amii, Remote.</li>
+
+  <li class="talks"> <b>February 2023:</b> <i>Permanent and Transient Value Functions</i>, <a style="color:blue;" href="https://barbados2023.rl-community.org/home">Barbados RL workshop 2023.</a></li>
 
   <li class="talks"> <b>June 2021:</b> <i>Preferential Temporal Difference Learning</i>, Spotlight, ICML 2021. [<a style="color:blue;" href="https://www.youtube.com/watch?v=wvwufoGNUZ0">YouTube</a>]</li>
 
