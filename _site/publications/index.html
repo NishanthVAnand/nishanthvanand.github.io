@@ -387,6 +387,30 @@
 <p>Find full list of publications on <a style="color:blue;" href="https://scholar.google.com/citations?user=pRNasKQAAAAJ&amp;hl=en">Google scholar</a>.</p>
 
 <ol>
+    <li class="papers">
+       <b>Permanent and Transient Representations for Continual Reinforcement Learning</b>. <i class="author_format"><b>Nishanth Anand</b>, Doina Precup</i>. Preprint 2025.
+       [<a style="color:blue;" href="https://openreview.net/pdf?id=5XfxEQ2SCt">PDF</a>]&nbsp;
+       <!-- <a id="1anchor" class = "arrow down" onclick="absFunc('1', '1anchor')" style="color:blue;"> </a>  -->
+       <a id="1anchor" class="plus" onclick="absFunc('1', '1anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="1" style="display: none;"> Continual Reinforcement Learning agents struggle to adapt to new situations while retaining past knowledge, resulting in a stability-plasticity trade-off. An appealing solution is to decompose the agent's predictions into permanent and transient components---one for long-term retention and the other for rapid adaptation---thereby achieving a better balance (Anand & Precup, 2023). Building on this idea, we propose using different sets of feature representations to estimate permanent and transient value functions, enabling even faster adaptation. We demonstrate the effectiveness of our approach on small-scale examples for both prediction and control tasks, analyze its theoretical properties, and show its benefits on the Craftax-Classic benchmark using a novel non-parametric approximator for transient value function estimation. Our method facilitates online learning and outperforms the PQN baseline. </div>
+    </li>
+
+    <li class="papers">
+       <b>AIF-GEN: Open-Source Platform and Synthetic Dataset Suite for Reinforcement Learning on Large Language Models</b>. <i class="author_format">Jacob Chmura,Shahrad Mohammadzadeh, Ivan Anokhin, Jacob-Junqi Tian, Mandana Samiei, Taz Scott-Talib, Irina Rish, Doina Precup, Reihaneh Rabbany, <b>Nishanth Anand</b></i>. ICML 2025 CodeML Workshop.
+       [<a style="color:blue;" href="https://arxiv.org/abs/2312.11669">PDF</a>]&nbsp;
+       <!-- <a id="1anchor" class = "arrow down" onclick="absFunc('1', '1anchor')" style="color:blue;"> </a>  -->
+       <a id="1anchor" class="plus" onclick="absFunc('1', '1anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="1" style="display: none;"> Reinforcement learning has proven effective for fine-tuning large language models (LLMs) using reward models trained on human preference data. However, collecting such feedback remains expensive, especially in dynamic settings like personalized tutoring, where users' preferences shift over time and through past interactions. To address this, we present AIF-GEN, the first synthetic preference data generation platform designed for traditional and lifelong RLHF. We use AIF-GEN to instantiate 18 synthetic datasets and evaluate its quality using an LLM. We also perform human evaluation on a subset of the generated datasets to further confirm its quality. Our results show AIF-GEN's potential to support the development of traditional and lifelong RLHF algorithms that align LLMs. </div>
+    </li>
+
+    <li class="papers">
+       <b>Prediction and Control in Continual Reinforcement Learning</b>. <i class="author_format"><b>Nishanth Anand</b>, Doina Precup</i>. NeurIPS 2023.
+       [<a style="color:blue;" href="https://arxiv.org/abs/2312.11669">PDF</a>]
+       [<a style="color:blue;" href="https://www.youtube.com/watch?v=I8h-EQ6wedM">YouTube</a>]&nbsp;
+       <!-- <a id="1anchor" class = "arrow down" onclick="absFunc('1', '1anchor')" style="color:blue;"> </a>  -->
+       <a id="1anchor" class="plus" onclick="absFunc('1', '1anchor')" style="color:blue;"></a>
+       <div class="format_abs" id="1" style="display: none;"> Temporal difference (TD) learning is often used to update the estimate of the value function which is used by RL agents to extract useful policies. In this paper, we focus on value function estimation in continual reinforcement learning. We propose to decompose the value function into two components which update at different timescales: a permanent value function, which holds general knowledge that persists over time, and a transient value function, which allows quick adaptation to new situations. We establish theoretical results showing that our approach is well suited for continual learning and draw connections to the complementary learning systems (CLS) theory from neuroscience. Empirically, this approach improves performance significantly on both prediction and control problems. </div>
+    </li>
   
   
     <li class="papers">

@@ -9,7 +9,7 @@ title: Talks
 </head>
 
 <ul>
-  <li class="talks"> <b>December 2023:</b> <i>The Permanent and Transient Framework for Continual Reinforcement Learning</i>, <a style="color:blue;" href="https://cohere.com/events/cohere-labs-nishanth-anand-2026">Cohere Labs.</a></li>
+  <li class="talks"> <b>March 2026:</b> <i>The Permanent and Transient Framework for Continual Reinforcement Learning</i>, <a style="color:blue;" href="https://cohere.com/events/cohere-labs-nishanth-anand-2026">Cohere Labs.</a></li>
 
   <li class="talks"> <b>December 2023:</b> <i>Prediction and Control in Continual Reinforcement Learning</i>, <a style="color:blue;" href="https://neurips.cc/virtual/2023/poster/72001">NeurIPS Conference.</a></li>
 
