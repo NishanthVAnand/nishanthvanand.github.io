@@ -26,6 +26,7 @@ navbar-links:
   Talks: "talks"
   Publications: "publications"
   Blog: "blog"
+  Teaching: "teaching"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
