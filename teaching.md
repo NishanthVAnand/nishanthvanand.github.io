@@ -29,9 +29,7 @@ title: Teaching
   </li>
 </ul>
 
-<br>
-
-<h3>ITeaching Assistant</h3>
+<h3>Teaching Assistant</h3>
 <ul>
   <li class="teaching">
     <b>AI4Good Summer Lab</b> <span class="teaching-meta">| Summer 2019, 2020 | Mila</span><br>

@@ -23,10 +23,10 @@ author: Nishanth Anand
 ###############################################
 
 navbar-links:
-  Talks: "talks"
   Publications: "publications"
-  Blog: "blog"
   Teaching: "teaching"
+  Blog: "blog"
+  Talks: "talks"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
