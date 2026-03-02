@@ -25,8 +25,8 @@ description: "Research mentorship and student supervision experience."
 
   <li class="mentorship">
     <b>MSc Thesis</b> <span class="mentorship-meta">| 2024 &ndash; Present</span><br>
-    <i>Co-supervisor (with Prof. Doina Precup)</i><br>
-    Primary supervisor of an MSc student’s thesis investigating architectural choices (e.g., Mixture of Experts, Attention) and neural plasticity mechanisms for my continual RL framework.
+    <i>Primary supervisor (Co. with Prof. Doina Precup)</i><br>
+    Co-supervisor of an MSc student’s thesis investigating architectural choices (e.g., Mixture of Experts, Attention) and neural plasticity mechanisms for my continual RL framework.
   </li>
 
   <li class="mentorship">
